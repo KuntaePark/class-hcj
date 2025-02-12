@@ -2,14 +2,16 @@
 
 1. HTML이란
 
-- 웹페이지 만드는 언어
-- 웹페이지 뼈대
+   - 웹페이지 만드는 언어
+   - 웹페이지 뼈대
 
 #CSS
 CSS: Cascading StyleSheet
 
 - 웹 꾸미기
+
 ##inline style
+
 <div style="display:flex;">
 
 ##style tag
