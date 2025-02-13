@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(https://cdn.pixabay.com/photo/2022/09/30/10/05/river-7489170_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-weight: 300;
+}
+
+button {
+  color: white;
+  border: 3px solid white;
+  border-radius: 4px;
+  padding: 4px;
+  background-color: transparent;
+}
