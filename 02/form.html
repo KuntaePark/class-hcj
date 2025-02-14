@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>상품구매</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>제주 천혜농</h1>
+    <form>
+      <label for="r">받는 분 성함</label>
+      <input id="r" type="text" placeholder="김ㅇㅇ" />
+      <select name="" id="i">
+        <option value="">옵션을 선택하세요</option>
+        <option value="18900">대과 18,900원</option>
+        <option value="189000" selected>소과 18,900원</option>
+      </select>
+      <label for="addr">배송지 입력</label>
+      <input type="text" id="addr" placeholder="유성구 농대로 8번길 3" />
+
+      <div>
+        <input type="submit" value="제출하기" />
+        <input type="button" value="취소" />
+        <input type="reset" value="초기화" />
+      </div>
+    </form>
+  </body>
+</html>
